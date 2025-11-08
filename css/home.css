@@ -18,53 +18,41 @@
 .date {
     grid-area: time;
     transform: translateX(50px);
-
 }
-
 .main-info-title--flex {
     grid-area: info-title;
-
 }
-
 .main-info-container {
     grid-area: info-p;
-
 }
-
 .main-info-title--flex {
     display: flex;
     align-items: flex-end;
     width: 300px;
 }
-
 .main-info-title {
     font-family: 'TuskerBold';
     text-transform: uppercase;
     font-size: 8rem;
     line-height: 1em;
     letter-spacing: 8px;
-
 }
-
 .and-span {
     border-radius: 50%;
     font-size: .3em;
     color: lightyellow;
     position: absolute;
 }
-
 .main-info-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-end;
 }
-
 .main-info-content {
     font-size: 1rem;
     text-transform: uppercase;
 }
-
 .main-info-content-p {
     display: inline-block;
     width: 100%;
@@ -78,14 +66,12 @@
         display: flex;
         flex-direction: column;
     }
-
     .date {
         /* border: 1px solid green; */
         transform: translateX(0px);
         margin-bottom: 2em;
         margin-right: 1em;
     }
-
     .main-info-title--flex {
         margin-bottom: 1em;
     }
@@ -93,7 +79,6 @@
         /* border: 1px solid red; */
         font-size: 8rem;
     }
-    
     .main-info-container {
         /* border: 1px solid yellow;
         display: flex; */
@@ -113,7 +98,6 @@
         padding-inline-start: 1em;
     }
     
-
     .dateNum {
         /* font-size: 4rem; */
         /* transform: translateY(10px); */
@@ -122,7 +106,6 @@
     .month {
         /* font-size: 1rem; */
     }
-    
     .day {
         /* font-size: 1rem; */
     }
@@ -144,42 +127,34 @@
             "info-title info-title"
             "info-p info-p";
     }
-
     .main-info-title {
         font-size: 15rem;
         line-height: 1em;
         letter-spacing: 5px;    
     }
-    
     .main-info-container {
         /* border: 1px solid yellow; */
         display: flex;
     }
-
     .main-info-content-p {
         font-size: 1.75rem;
     }
-
     .main-info-content {
         font-size: 1.5rem;
         padding-inline: 1em;
     }
-    
     .date {
         /* border: 1px solid green; */
         font-family: var(--ff-time);
         transform: translateX(0px);
     }
-
     .dateNum {
         font-size: 6rem;
         transform: translateY(10px);
     }
-    
     .month {
         font-size: 2rem;
     }
-    
     .day {
         font-size: 2rem;
     }
